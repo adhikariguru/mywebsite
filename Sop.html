@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="sop.css">
+  	<script src="sop.js"></script>
+
+    <title>Student Information Form</title>
+  </head>
+  <body>
+  	<center><header>
+  <h1>Kist Educational Consultancy</h1>
+  <p>Fill out the form carefully, provide as much info as possible such that your requirements are identified.</p>
+</header></center>
+
+    <form onsubmit="submitForm()">
+      <h2>Personal Information</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address"></textarea><br><br>
+
+      <h2>Educational Information</h2>
+      <label for="highest-education">Highest Education:</label>
+      <input type="text" id="highest-education" name="highest-education"><br><br>
+      <label for="school-college">School/College:</label>
+      <input type="text" id="school-college" name="school-college"><br><br>
+      <label for="gpa">GPA/Percentage:</label>
+      <input type="number" id="gpa" name="gpa"><br><br>
+      <label for="university">University Applying for:</label>
+      <input type="text" id="university" name="university"><br><br>
+      <label for="course">Course to Pursue:</label>
+      <input type="text" id="course" name="course"><br><br>
+
+      <h2>Professional Information</h2>
+      <label for="work-experience">Work Experience:</label>
+      <input type="text" id="work-experience" name="work-experience"><br><br>
+
+      <h2>Other Information</h2>
+      <label for="interests">Interests:</label>
+      <textarea id="interests" name="interests"></textarea><br><br>
+      <label for="hobbies">Hobbies:</label>
+      <textarea id="hobbies" name="hobbies"></textarea><br><br>
+      <label for="academic-goal">Academic Goal:</label>
+      <textarea id="academic-goal" name="academic-goal"></textarea><br><br>
+      <label for="Family-Background-and-other">Family Background and Other</label>
+      <textarea id="Family-Background-and-other" name="Family-Background-and-other"></textarea><br><br>
+      <label for="university-location">University Location:</label>
+      <input type="text" id="university-location" name="university-location"><br><br>
+      <center>
+      <input type="submit" value="Submit">
+  	  </center>
+    </form>
+  </body>
+</html>
