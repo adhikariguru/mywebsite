@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<link rel="stylesheet" type="text/css" href="sop.css">
-  	<script src="sop.js"></script>
+    <link rel="stylesheet" type="text/css" href="sop.css">
+    <script src="sop.js"></script>
+    <link rel="script" type="text/js" href="sop.js">
 
     <title>Student Information Form</title>
   </head>
   <body>
-  	<center><header>
-  <h1>Kist Educational Consultancy</h1>
-  <p>Fill out the form carefully, provide as much info as possible such that your requirements are identified.</p>
-</header></center>
-
-    <form onsubmit="submitForm()">
+    
+       <form onsubmit="submitForm()">
+        <center>
+      <label>MUST ADD THE PAYMENT TRANSACTION ID: <font size="25" color="Red">NPR 1000</font></label>
+      <input type="text" name="transactionid"><br><br>
+      <label>Screenshot of Payment:</label>
+      <input type="file" name="screenshot">
+      <hr><hr>
+      <h1>Kist Educational Consultancy</h1>
+      <hr>
+      <p>Fill out the form carefully, provide as much info as possible such that your requirements are identified.</p>
+   </center>
       <h2>Personal Information</h2>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name"><br><br>
@@ -33,7 +40,7 @@
       <label for="school-college">School/College:</label>
       <input type="text" id="school-college" name="school-college"><br><br>
       <label for="gpa">GPA/Percentage:</label>
-      <input type="number" id="gpa" name="gpa"><br><br>
+      <input type="number" id="gpa" name="gpa" step="0.01"><br><br>
       <label for="university">University Applying for:</label>
       <input type="text" id="university" name="university"><br><br>
       <label for="course">Course to Pursue:</label>
@@ -44,19 +51,153 @@
       <input type="text" id="work-experience" name="work-experience"><br><br>
 
       <h2>Other Information</h2>
-      <label for="interests">Interests:</label>
-      <textarea id="interests" name="interests"></textarea><br><br>
-      <label for="hobbies">Hobbies:</label>
-      <textarea id="hobbies" name="hobbies"></textarea><br><br>
+      <label>Interests:</label><br>
+      <input type="checkbox" name="interests" value="Stock market analysis"> Stock market analysis<br>
+<input type="checkbox" name="interests" value="Financial modeling"> Financial modeling<br>
+<input type="checkbox" name="interests" value="Investment strategies"> Investment strategies<br>
+<input type="checkbox" name="interests" value="Cryptocurrency trading"> Cryptocurrency trading<br>
+<input type="checkbox" name="interests" value="Financial planning"> Financial planning<br>
+<input type="checkbox" name="interests" value="Data analysis"> Data analysis<br>
+<input type="checkbox" name="interests" value="Artificial intelligence"> Artificial intelligence<br>
+<input type="checkbox" name="interests" value="Machine learning"> Machine learning<br>
+<input type="checkbox" name="interests" value="Quantum computing"> Quantum computing<br>
+<input type="checkbox" name="interests" value="Biotechnology"> Biotechnology<br>
+<input type="checkbox" name="interests" value="Renewable energy"> Renewable energy<br>
+<input type="checkbox" name="interests" value="Space exploration"> Space exploration<br>
+<input type="checkbox" name="interests" value="Robotics"> Robotics<br>
+<input type="checkbox" name="interests" value="Genetic engineering"> Genetic engineering<br>
+<input type="checkbox" name="interests" value="Environmental conservation"> Environmental conservation<br>
+<input type="checkbox" name="interests" value="Sustainable investing"> Sustainable investing<br>
+<input type="checkbox" name="interests" value="Algorithmic trading"> Algorithmic trading<br>
+<input type="checkbox" name="interests" value="Risk management"> Risk management<br>
+<input type="checkbox" name="interests" value="Neurobiology"> Neurobiology<br>
+<input type="checkbox" name="interests" value="Nanotechnology"> Nanotechnology<br>
+<input type="checkbox" name="interests" value="Mathematical modeling"> Mathematical modeling<br>
+<input type="checkbox" name="interests" value="Bioinformatics"> Bioinformatics<br>
+<input type="checkbox" name="interests" value="Climate change research"> Climate change research<br>
+<input type="checkbox" name="interests" value="Behavioral economics"> Behavioral economics<br>
+<input type="checkbox" name="interests" value="Particle physics"> Particle physics<br>
+<input type="checkbox" name="interests" value="Epidemiology"> Epidemiology<br>
+<input type="checkbox" name="interests" value="Financial markets"> Financial markets<br>
+<input type="checkbox" name="interests" value="Data science"> Data science<br>
+<input type="checkbox" name="interests" value="Biochemistry"> Biochemistry<br>
+<input type="checkbox" name="interests" value="Pharmacology"> Pharmacology<br>
+<input type="checkbox" name="interests" value="Game theory"> Game theory<br>
+<input type="checkbox" name="interests" value="Astrophysics"> Astrophysics<br>
+<input type="checkbox" name="interests" value="Financial literacy"> Financial literacy<br>
+<input type="checkbox" name="interests" value="Cognitive neuroscience"> Cognitive neuroscience<br>
+<input type="checkbox" name="interests" value="Quantum mechanics"> Quantum mechanics<br>
+<input type="checkbox" name="interests" value="Sustainable development"> Sustainable development<br>
+<input type="checkbox" name="interests" value="Genomics"> Genomics<br>
+<input type="checkbox" name="interests" value="Alternative energy sources"> Alternative energy sources<br>
+<input type="checkbox" name="interests" value="Cybersecurity"> Cybersecurity<br>
+<input type="checkbox" name="interests" value="Biomedical engineering"> Biomedical engineering<br>
+<input type="checkbox" name="interests" value="Econometrics"> Econometrics<br>
+<input type="checkbox" name="interests" value="Oceanography"> Oceanography<br>
+<input type="checkbox" name="interests" value="Computational biology"> Computational biology<br>
+<input type="checkbox" name="interests" value="Econophysics"> Econophysics<br>
+<input type="checkbox" name="interests" value="Medical research"> Medical research<br>
+<input type="checkbox" name="interests" value="Chemical engineering"> Chemical engineering<br>
+<input type="checkbox" name="interests" value="Statistical analysis"> Statistical analysis<br>
+<input type="checkbox" name="interests" value="Space technology"> Space technology<br>
+<input type="checkbox" name="interests" value="Bioenergy"> Bioenergy<br>
+<input type="checkbox" name="interests" value="Mathematical finance"> Mathematical finance<br>
+<input type="checkbox" name="interests" value="Baking"> Baking<br>
+<input type="checkbox" name="interests" value="Pastry making"> Pastry making<br>
+<input type="checkbox" name="interests" value="Cooking techniques"> Cooking techniques<br>
+<input type="checkbox" name="interests" value="Gourmet cuisine"> Gourmet cuisine<br>
+<input type="checkbox" name="interests" value="International cuisines"> International cuisines<br>
+<input type="checkbox" name="interests" value="Food styling and presentation"> Food styling and presentation<br>
+<input type="checkbox" name="interests" value="Molecular gastronomy"> Molecular gastronomy<br>
+<input type="checkbox" name="interests" value="Vegan and vegetarian cooking"> Vegan and vegetarian cooking<br>
+<input type="checkbox" name="interests" value="Farm-to-table cooking"> Farm-to-table cooking<br>
+<input type="checkbox" name="interests" value="Food photography"> Food photography<br>
+<input type="checkbox" name="interests" value="Food blogging"> Food blogging<br>
+<input type="checkbox" name="interests" value="Wine and food pairing"> Wine and food pairing<br>
+<input type="checkbox" name="interests" value="Culinary competitions"> Culinary competitions<br>
+<input type="checkbox" name="interests" value="Sous vide cooking"> Sous vide cooking<br>
+<input type="checkbox" name="interests" value="Artisanal bread making"> Artisanal bread making<br>
+<input type="checkbox" name="interests" value="Food entrepreneurship"> Food entrepreneurship<br>
+<input type="checkbox" name="interests" value="Food history and culture"> Food history and culture<br>
+<input type="checkbox" name="interests" value="Fermentation and pickling"> Fermentation and pickling<br>
+<input type="checkbox" name="interests" value="Food science and experimentation"> Food science and experimentation<br>
+<input type="checkbox" name="interests" value="Culinary education and training"> Culinary education and training<br>
+<input type="checkbox" name="interests" value="Food sustainability"> Food sustainability<br>
+<input type="checkbox" name="interests" value="Seasonal cooking"> Seasonal cooking<br>
+<input type="checkbox" name="interests" value="Menu planning and development"> Menu planning and development<br>
+<input type="checkbox" name="interests" value="Recipe creation and adaptation"> Recipe creation and adaptation<br>
+<input type="checkbox" name="interests" value="Culinary travel and exploration"> Culinary travel and exploration<br>
+<input type="checkbox" name="interests" value="Food journalism and writing"> Food journalism and writing<br>
+<input type="checkbox" name="interests" value="Gastronomic tourism"> Gastronomic tourism<br>
+<input type="checkbox" name="interests" value="Cheese making"> Cheese making<br>
+<input type="checkbox" name="interests" value="Mixology and cocktail crafting"> Mixology and cocktail crafting<br>
+<input type="checkbox" name="interests" value="Food preservation techniques"> Food preservation techniques<br>
+<input type="checkbox" name="interests" value="Butchery and charcuterie"> Butchery and charcuterie<br>
+<input type="checkbox" name="interests" value="Cake decorating"> Cake decorating<br>
+<input type="checkbox" name="interests" value="Food truck operation"> Food truck operation<br>
+<input type="checkbox" name="interests" value="Chocolate and confectionery making"> Chocolate and confectionery making<br>
+<input type="checkbox" name="interests" value="Culinary arts management"> Culinary arts management<br>
+<input type="checkbox" name="interests" value="Spice blending and flavor profiling"> Spice blending and flavor profiling<br>
+<input type="checkbox" name="interests" value="BBQ and grilling techniques"> BBQ and grilling techniques<br>
+<input type="checkbox" name="interests" value="Gluten-free cooking"> Gluten-free cooking<br>
+<input type="checkbox" name="interests" value="Raw and plant-based cuisine"> Raw and plant-based cuisine<br>
+<input type="checkbox" name="interests" value="Slow cooking and braising"> Slow cooking and braising<br>
+<input type="checkbox" name="interests" value="Culinary research and development"> Culinary research and development<br>
+<input type="checkbox" name="interests" value="Food safety and sanitation"> Food safety and sanitation<br>
+<input type="checkbox" name="interests" value="Culinary nutrition"> Culinary nutrition<br>
+<input type="checkbox" name="interests" value="Food product development"> Food product development<br>
+<input type="checkbox" name="interests" value="Indigenous and traditional cooking methods"> Indigenous and traditional cooking methods<br>
+<input type="checkbox" name="interests" value="Culinary consulting"> Culinary consulting<br>
+<input type="checkbox" name="interests" value="Recipe testing and refinement"> Recipe testing and refinement<br>
+<input type="checkbox" name="interests" value="Food allergies and dietary restrictions"> Food allergies and dietary restrictions<br>
+<input type="checkbox" name="interests" value="Culinary arts instruction and teaching"> Culinary arts instruction and teaching<br>
+<input type="checkbox" name="interests" value="Food and beverage pairing events"> Food and beverage pairing events<br>
+
+      <br><br>
+
+        <label for="research_experience">Research Experience:</label>
+  <textarea id="research_experience" name="research_experience"></textarea>
+
+  <label for="publications">Publications:</label>
+  <textarea id="publications" name="publications"></textarea>
+
+  <label for="leadership_roles">Leadership Roles:</label>
+  <textarea id="leadership_roles" name="leadership_roles"></textarea>
+
+  <label for="volunteering">Volunteering and Community Service:</label>
+  <textarea id="volunteering" name="volunteering"></textarea>
+
+  <label for="awards">Awards and Recognitions:</label>
+  <textarea id="awards" name="awards"></textarea>
+
+  <label for="certifications">Professional Certifications:</label>
+  <textarea id="certifications" name="certifications"></textarea>
+
+  <label for="sop_draft">Statement of Purpose Draft:</label>
+  <textarea id="sop_draft" name="sop_draft"></textarea>
+
+  <label for="recommendation">Letters of Recommendation:</label>
+  <textarea id="recommendation" name="recommendation"></textarea>
+
+  <label for="language_proficiency">Language Proficiency:</label>
+  <input type="text" id="language_proficiency" name="language_proficiency">
+
+      <label for="other-interests">Other Interests:</label>
+      <textarea id="other-interests" name="other-interests"></textarea><br><br>
+
+      <label for="other-hobbies">Other Hobbies:</label>
+      <textarea id="other-hobbies" name="other-hobbies"></textarea><br><br>
+
       <label for="academic-goal">Academic Goal:</label>
       <textarea id="academic-goal" name="academic-goal"></textarea><br><br>
-      <label for="Family-Background-and-other">Family Background and Other</label>
+      <label for="Family-Background-and-other">Family Background and Other:</label>
       <textarea id="Family-Background-and-other" name="Family-Background-and-other"></textarea><br><br>
       <label for="university-location">University Location:</label>
       <input type="text" id="university-location" name="university-location"><br><br>
       <center>
       <input type="submit" value="Submit">
-  	  </center>
+      </center>
     </form>
   </body>
 </html>
+
